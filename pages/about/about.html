@@ -14,13 +14,15 @@
             <input type="button" value="Catalog">
             <input type="button" value="Profile">
         </span>
-        <fieldset style="float: right">
-            <label for="username-id">username</label>
-            <input id="username-id" type="text" placeholder="Enter Username" ><br/>
-            <label for="password-id">password</label>
-            <input id="password-id" type="password" placeholder="Enter Password">
-            <button type="submit" >Login</button >
-        </fieldset>
+        <form method="post"  action="" enctype="text/plain">
+            <fieldset style="float: right">
+                <label for="username-id">username</label>
+                <input id="username-id" type="text" placeholder="Enter Username" required><br/>
+                <label for="password-id">password</label>
+                <input id="password-id" type="password" placeholder="Enter Password" required>
+                <button type="submit" >Login</button>
+            </fieldset>
+        </form>
     </div>
     <div>
             <input id="search-input" placeholder="Enter to search" type="search"/>
