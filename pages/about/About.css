@@ -1,6 +1,6 @@
 
 header {
-    position: relative;
+    position: sticky;
 }
 
 h1.comp_name {
@@ -94,4 +94,9 @@ img.img_abt{
 p {
     position: relative;
     margin: 0px 0px 60px;
+}
+
+main div {
+    position: relative;
+    top: 60px;
 }
