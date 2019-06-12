@@ -1,0 +1,36 @@
+main{
+    position: relative;
+    font-style: oblique;
+}
+
+.Main_Header {
+    display: inline;
+    position: relative;
+    font-size: xx-large;
+}
+
+h2 {
+    display: inline;
+    position: absolute;
+    top: 50px;
+}
+
+p2 {
+    display: inline;
+    position: absolute;
+    top: 120px;
+    width: 500px;
+}
+img{
+    display: inline-block;
+    position: absolute;
+    top: 111px;
+    left: 850px;
+    width: 370px;
+    height: 270px;
+}
+
+.Home_Concept {
+    position: absolute;
+    top: 50px;
+}
