@@ -1,0 +1,41 @@
+.comp {
+    display: inline-block;
+}
+div{
+    position: relative;
+}
+
+img.diagram {
+    position: relative;
+    height: 200px;
+    width: 600px;
+    display: inline-block;
+}
+
+ul.li_diag {
+    height: 18px;
+    position: relative;
+    left: 145px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+ul.li_diag li {
+    display: inline-block;
+    position: relative;
+    padding: 0px 20px;
+}
+
+p {
+    display: inline-block;
+    position: relative;
+    bottom: 160px;
+    left: 20px;
+}
+
+
+li:hover{
+    background-color: dimgray;
+    color: white;
+}
