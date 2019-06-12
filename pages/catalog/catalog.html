@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/footer.css">
     <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="../../css/breadcrumbs.css">
 </head>
 <body>
 <header>
@@ -16,6 +17,7 @@
                 <li><a href="">Home Page</a></li>
                 <li><a href="">Catalog</a></li>
                 <li><a href="">Profile</a></li>
+                <li><a href="">About</a></li>
             </ul>
         </span>
         <form method="post"  action="" enctype="text/plain">
@@ -37,13 +39,16 @@
 </header>
 <main>
     <nav>
-        <a href="../homePage/homePage.html">Home Page</a> ->
-        <a href="catalog.html">Catalog</a>
+        <ul class="breadcrumb">
+            <li><a href="#">Home Page</a></li>
+            <li><a href="#">Pictures</a></li>
+            <li>Italy</li>
+        </ul>
     </nav>
     <div>
         <div>
-            <h2 class="comp">Alphabet Inc.</h2>
             <img class = "comp_logo" src="../../image/Google_Logo.png" height="30" width="30"/>
+            <h2 class="comp"><a href="">Alphabet Inc.</a></h2>
         </div>
         <h3 class ="value">1,081.04 USD</h3>
         <div>
@@ -58,13 +63,13 @@
                     <li><a href="">6 month</a></li>
                     <li><a href="">month</a></li>
                 </ul>
-            </span>
+        </span>
         
     </div>
     <div>
         <div>
-            <h2 class="comp">Facebook Inc.</h2>
             <img class = "comp_logo" src="../../image/facebook logo.png" height="30" width="30"/>
+            <h2 class="comp"><a href="">Facebook Inc.</a></h2>
         </div>
         <h3 class ="value">178.10 USD</h3>
         <div>
@@ -83,8 +88,8 @@
     </div>
     <div>
         <div>
-            <h2 class="comp">Microsoft Corporation</h2>
             <img class = "comp_logo" src="../../image/microsoft logo.png" height="30" width="30"/>
+            <h2 class="comp"><a href="">Microsoft Corporation</a></h2>
         </div>
         <h3 class ="value">132.10 USD</h3>
         <div>
@@ -103,14 +108,18 @@
     </div>
     <div>
         <div>
-            <h2 class="comp">Apple Inc.</h2>
             <img class = "comp_logo" src="../../image/apple logo.png" height="30" width="30"/>
+            <h2 class="comp"><a href="">Apple Inc.</a></h2>
         </div>
         <h3 class ="value">194.81 USD</h3>
         <div>
             <img class = "diagram" src="../../image/apple 1 year.jpg" height="100" width="300"/>
             <p>
-                some bla bla about apple
+                Apple Inc. is an American multinational technology</br>
+                company headquartered in Cupertino, California,</br>
+                that designs, develops, and sells consumer electronics,</br>
+                computer software, and online services. </br>
+                It is considered one of the Big Four of technology.
             </p>
         </div>
         <span>
@@ -124,21 +133,16 @@
 </main>
 <footer>
     <hr>
-    <span>
-        <input type="button" value="Home">
-        <input type="button" value="Catalog">
-        <input type="button" value="Profile">
-    </span>
-    <div>
-        <div>
-            <a href="about.html">about</a>
-        </div>
-        <div>
-            <a href="#">contact us</a>
-        </div>
-        <div>
-            <a href="#">Rights</a>
-        </div>
+    <div >
+        <span>
+            <a class="FooterLinks" href="about.html">About</a>
+        </span>
+        <span>
+            <a class="FooterLinks" href="#">Contact us</a>
+        </span>
+        <span>
+            <a class="FooterLinks" href="#">Rights</a>
+        </span>
     </div>
 </footer>
 </body>
