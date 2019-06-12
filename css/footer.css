@@ -2,7 +2,6 @@
     position: relative;
     left: 450px;
     display: inline-block;
-    letter-spacing: 0.5px;
     margin-right: 75px;
     margin-left: 75px;
 }
@@ -27,8 +26,8 @@ footer a:hover {
 
 :root{
     --lgnbtn-bg-color-hover:dimgray;
-    --lgnbtn-bg-color:white;
-    --lgnbtn-border-color: rgba(212, 106, 31, 0);;
+    --lgnbtn-bg-color: white;
+    --lgnbtn-border-color: white;;
     --txt-color:white;;
 }
 
