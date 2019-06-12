@@ -1,0 +1,80 @@
+header {
+    position: sticky;
+}
+
+h1.comp_name {
+    text-align: center;
+    margin-bottom: 37px;
+    margin-top: 0px;
+}
+
+fieldset.login {
+    display: inline-block;
+    position: absolute;
+    left: 940px;
+    padding-right: 50px;
+    bottom: 70px;
+}
+
+input.login_input {
+    position: absolute;
+    bottom: 11px;
+    left: 250px;
+    height: 42px;
+    width: 42px;
+    border-radius: 50px;
+}
+
+hr.header_bottom{
+    position: relative;
+    top: 10px;
+    margin-bottom: 20px;
+    z-index: 0;
+    border-color: black;
+}
+
+img.logo {
+    position: absolute;
+    top: 95px;
+    left: 525px;
+    z-index: 1;
+    border-color: black;
+    border-style: groove;
+    height: 150px;
+}
+
+.search {
+    position: absolute;
+    top: 125px;
+}
+
+span.menu {
+    position: relative;
+    left: 467px;
+    bottom: 37px;
+}
+
+span.menu li {
+    display: inline-block;
+    padding: 20px 0px 17px;
+    width: 75px;
+    text-align: center;
+    transition: background-color 0.35s;
+}
+
+span.menu li:hover{
+    background-color: dimgray;
+    color: white;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    width: 312px;
+    background-color: lightgray;
+    height: 55px;
+    padding: 0px;
+}
