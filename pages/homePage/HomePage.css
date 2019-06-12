@@ -31,6 +31,39 @@ img{
 }
 
 .Home_Concept {
+    display: inline-block;
     position: absolute;
     top: 50px;
+}
+
+button {
+    font-style: oblique;
+    position: relative;
+    width: 350px;
+    height: 120px;
+    top: 225px;
+    left: 200px;
+    background-color: #62ff7d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 31px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
