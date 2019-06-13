@@ -21,13 +21,14 @@ p2 {
     top: 120px;
     width: 500px;
 }
-img{
+.mySlides{
     display: inline-block;
     position: absolute;
-    top: 111px;
-    left: 850px;
-    width: 370px;
-    height: 270px;
+    top: 70px;
+    left: 820px;
+    width: 620px;
+    height: 450px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .Home_Concept {
