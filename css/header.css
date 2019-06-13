@@ -3,11 +3,11 @@ header {
 }
 
 h1.comp_name {
-    text-align: center;
+    position: relative;
     margin-bottom: 37px;
     margin-top: 0px;
+    left: 500px;
 }
-
 fieldset.login {
     display: inline-block;
     position: absolute;
