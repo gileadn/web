@@ -1,5 +1,11 @@
 header {
-    position: sticky;
+    position: relative;
+}
+
+div.diagram {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 1px;
 }
 
 h1.comp_name {
@@ -25,22 +31,13 @@ input.login_input {
     border-radius: 50px;
 }
 
-hr.header_bottom{
-    position: relative;
-    top: 10px;
-    margin-bottom: 20px;
-    z-index: 0;
-    border-color: black;
-}
-
 img.logo {
-    position: absolute;
-    top: 95px;
-    left: 525px;
-    z-index: 1;
-    border-color: black;
-    border-style: groove;
-    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:  10px;
+    
+}
 }
 
 .search {
@@ -54,27 +51,44 @@ span.menu {
     bottom: 37px;
 }
 
-span.menu li {
-    display: inline-block;
-    padding: 20px 0px 17px;
-    width: 75px;
-    text-align: center;
-    transition: background-color 0.35s;
+.stick_head ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-span.menu li:hover{
-    background-color: dimgray;
+.stick_head li {
+    float: left;
+}
+
+.stick_head li a {
+    display: block;
     color: white;
-}
-
-header li a {
-    color: black;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-header ul {
-    width: 312px;
-    background-color: lightgray;
-    height: 55px;
-    padding: 0px;
+.stick_head li a:hover {
+    background-color: #111;
+}
+
+.search_icon{
+    float: right;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+i {
+    color: white;
+}
+
+i.black{
+    color: black;
+    font-size: 35px;
 }
