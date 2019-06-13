@@ -5,11 +5,19 @@ div{
     position: relative;
 }
 
-img.diagram {
+.diagram img {
     position: relative;
     height: 200px;
     width: 600px;
     display: inline-block;
+}
+
+div.diagram {
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 1px;
+    margin-bottom: 25px;
 }
 
 ul.li_diag {
@@ -47,7 +55,7 @@ p {
     left: 10px;
 }
 
-h2 a{
-    color: black;
-    text-decoration: none;
+img.comp_logo {
+    position: relative;
+    bottom: 7px;
 }

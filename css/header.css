@@ -14,6 +14,7 @@ h1.comp_name {
     margin-top: 0px;
     left: 500px;
 }
+
 fieldset.login {
     display: inline-block;
     position: absolute;
@@ -36,13 +37,6 @@ img.logo {
     margin-left: auto;
     margin-right: auto;
     margin-bottom:  10px;
-    
-}
-}
-
-.search {
-    position: absolute;
-    top: 125px;
 }
 
 span.menu {
@@ -76,10 +70,6 @@ span.menu {
     background-color: #111;
 }
 
-.search_icon{
-    float: right;
-}
-
 .active {
     background-color: #4CAF50;
 }
@@ -91,4 +81,25 @@ i {
 i.black{
     color: black;
     font-size: 35px;
+}
+
+div.stick_head {
+    position: sticky;
+    top: 0;
+}
+
+.login{
+    display: none;
+}
+
+.search {
+    display: none;
+    position: absolute;
+    left: 289px;
+    background: white;
+    padding: 1px;
+}
+
+li.search_icon a:hover .search{
+    display: block;
 }

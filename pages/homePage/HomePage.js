@@ -12,3 +12,7 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 5000); // Change image every 2 seconds
 }
+
+function makeMoney() {
+  location.replace("../catalog/catalog.html")
+}
