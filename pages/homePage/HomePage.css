@@ -40,33 +40,36 @@ p2 {
     bottom: 400px;
 }
 
-button {
+button.MakeMoneyBTN{
     font-style: oblique;
     position: absolute;
+    font-size: 20px;
     width: 350px;
     height: 120px;
     top: 255px;
-    background-color: #62ff7d;
+    background-color: var(--btn-color);
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 31px;
     transition-duration: 0.4s;
     border-radius: 50%;
     right: 800px;
 }
 
-button:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+button.MakeMoneyBTN:hover {
+    background-color: var(--btn-color-hover);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 1px;
+    font-size: 24px;
 }
-
-button:active {
-    background-color: #3e8e41;
+/*
+button.MakeMoneyBTN:active {
+    background-color: var(--btn-color-hover);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ */

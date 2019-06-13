@@ -71,7 +71,7 @@ span.menu {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: var(--btn-color);
 }
 
 i {
