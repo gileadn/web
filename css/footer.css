@@ -11,6 +11,7 @@ footer {
     font-size: larger;
     float: bottom;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 footer a:-webkit-any-link {
