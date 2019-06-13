@@ -1,20 +1,21 @@
 main {
     position: relative;
+    font-style: oblique;
 }
 
 img.img_abt{
     height: 180px;
     width: 280px;
     position: absolute;
-    left: 735px;
+    left: 850px;
 }
 
 p {
     position: relative;
-    margin: 0px 0px 60px;
+    margin: 0px 0px 45px;
 }
 
 main div {
     position: relative;
-    top: 60px;
+    top: 40px;
 }

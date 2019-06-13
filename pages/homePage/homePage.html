@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>The Stock Market</title>
+    <link rel="shortcut icon" href="../../image/NewLogo.png"/>
     <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="../../css/root.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/general.css">
 </head>
 <body>
-<header>
-    <h1 class="comp_name">The Stock Market</h1>
-    <div>
-        <span class = menu>
-            <ul>
-                <li><a href="">Home Page</a></li>
-                <li><a href="">Catalog</a></li>
-                <li><a href="">Profile</a></li>
-                <li><a href="">About</a></li>
-            </ul>
+    <header>
+    <img class="logo" src="../../image/NewLogo.png" alt="SMlogo"/>
+    <div class="stick_head">
+        <ul>
+            <li><a class="active" href="../homePage/homePage.html"><i class="fa fa-home">Home Page</i></a></li>
+            <li><a href=""><i class="glyphicon glyphicon-menu-hamburger">Menu</i></a></li>
+            <li><a href="../catalog/catalog.html"><i class="fas fa-newspaper">Catalog</i></a></li>
+            <li class="search_icon" ><a href=""><i class="fas fa-search-dollar">Search</i></a></li>
+            <li class="login_icon"><a href=""><i class="glyphicon glyphicon-log-in"> Log-in</i></a></li>
+        </ul>
         </span>
         <form method="post"  action="" enctype="text/plain">
-            <fieldset class = "login">
+            <fieldset class = "login" id="login_none">
                 <label for="username-id">username</label>
                 <input id="username-id" placeholder="Enter Username" required><br/>
                 <label for="password-id">password</label>
@@ -28,12 +34,39 @@
             </fieldset>
         </form>
     </div>
-    <div class="search">
+    <div class= "search">
         <input id="search-input" placeholder="Enter to search" type="search"/>
         <input id="submit-input"  type="submit"  value="Search"/>
     </div>
-    <img class="logo" src="../../image/SMlogo.png" alt="SMlogo" width="200" height="200" />
-    <hr class = "header_bottom">
 </header>
+    <main>
+        <img class="mySlides" alt="StocksImage" src="../../image/home page image 2.png"/>
+        <img class="mySlides" alt="StocksImage" src="../../image/PhotoGallary/nifty-stocks-trading_140616045815.jpg">
+        <img class="mySlides" alt="StocksImage" src="../../image/PhotoGallary/stock-brokers-looking-computer-screens-trading-online-businessmen-stocks-graphs-indexes-numbers-multiple-colleagues-96090129.jpg">
+        <img class="mySlides" alt="StocksImage" src="../../image/PhotoGallary/133536_a292_9.jpg"/>
+        <img class="mySlides" alt="StocksImage" src="../../image/PhotoGallary/analysis-gettyimages-871070312.jpg"/>
+        <span class="Home_Concept" >
+            <h1 class="Main_Header">The Stock Market</h1>
+            <h2>Make Money, Simple.</h2>
+            <p2 style>Start trading today and discover a whole new world of opportunities.</p2>
+        </span>
+        <button class="MakeMoneyBTN" title="Start Making Money!"  onclick="makeMoney()">Start Making Money!</button>
+    </main>
+    <footer>
+        <hr>
+        <div>
+            <span>
+                <a class="FooterLinks" href="../about/about.html">About</a>
+            </span>
+            <span>
+                <a class="FooterLinks" href="#">Contact us</a>
+            </span>
+            <span>
+                <a class="FooterLinks" href="#">Rights</a>
+            </span>
+        </div>
+    </footer>
+    <script src="HomePage.js"></script>
+>>>>>>> Develope
 </body>
 </html>
