@@ -1,6 +1,5 @@
 .FooterLinks {
     position: relative;
-    left: 450px;
     display: inline-block;
     margin-right: 75px;
     margin-left: 75px;
@@ -10,6 +9,8 @@ footer {
     color: #ffffff;
     font-style: oblique;
     font-size: larger;
+    float: bottom;
+    text-align: center;
 }
 
 footer a:-webkit-any-link {
