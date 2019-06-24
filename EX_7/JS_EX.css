@@ -1,6 +1,18 @@
 h1 {
-    font-family:  verdana;
+    font-family:  Verdana;
     text-align: center;
+}
+
+button{
+    display: none;
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+    background: deepskyblue;
+    border-width: 0px;
+    top: 22px;
+    left: 4.3%;
+    width: 30%;
+    transition: all 0.2s ease-in;
 }
 
 input {
@@ -14,6 +26,8 @@ input {
 }
 
 div.items {
-    margin-top: 10px;
+    top: 20px;
     text-align: center;
+    position: relative;
 }
+

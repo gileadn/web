@@ -16,17 +16,21 @@ h1.comp_name {
 }
 
 fieldset.login {
-    display: inline-block;
+    display: none;
+    background-color: #f5f5f5;
     position: absolute;
-    left: 940px;
-    padding-right: 50px;
-    bottom: 70px;
+    bottom: 53px;
+    left: 300px;
+    padding: 10px 50px 10px 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
 }
 
 input.login_input {
     position: absolute;
-    bottom: 11px;
-    left: 250px;
+    bottom: 18px;
+    left: 253px;
     height: 42px;
     width: 42px;
     border-radius: 50px;
@@ -86,10 +90,6 @@ i.black{
 div.stick_head {
     position: sticky;
     top: 0;
-}
-
-.login{
-    display: none;
 }
 
 .search {
