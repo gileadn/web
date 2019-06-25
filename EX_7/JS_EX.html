@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="JS_EX.css">
 </head>
 <body>
-    <h1 ">BGU Todo App</h1>
+    <h1>BGU Todo App</h1>
     <div>
-        <input maxlength="57" id="Task"  placeholder="Enter item to add to the list" required>
-        <button onclick="addItem()">Add Item</button>
+        <input maxlength="57" id="Task"  autofocus="autofocus"  onkeydown="enter(event)" placeholder="Enter item to add to the list" required>
+        <button onclick="addItem()">Press Enter or click here to add the item</button>
     </div>
     <ul>
     

@@ -1,13 +1,15 @@
 h1 {
     font-family:  Verdana;
     text-align: center;
+    margin: 3%;
 }
 
 button{
     display: none;
     position: relative;
     border-radius: 0px 0px 20px 20px;
-    background: deepskyblue;
+    background: darkblue;
+    color: white;
     border-width: 0px;
     top: 22px;
     left: 4.3%;
@@ -31,3 +33,24 @@ div.items {
     position: relative;
 }
 
+.box {
+    width: auto;
+    position: relative;
+    left: 0;
+}
+
+ul {
+    position: relative;
+    left: 31%;
+    margin-top: 24px;
+    list-style: none;
+}
+
+.marked{
+    color: darkgray;
+}
+
+body {
+    position: relative;
+    margin-top: 13%;
+}
