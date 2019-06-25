@@ -1,0 +1,56 @@
+h1 {
+    font-family:  Verdana;
+    text-align: center;
+    margin: 3%;
+}
+
+button{
+    display: none;
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+    background: darkblue;
+    color: white;
+    border-width: 0px;
+    top: 22px;
+    left: 4.3%;
+    width: 30%;
+    transition: all 0.2s ease-in;
+}
+
+input {
+    position: relative;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 30%;
+    left: 35%;
+    padding: 5px
+}
+
+div.items {
+    top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.box {
+    width: auto;
+    position: relative;
+    left: 0;
+}
+
+ul {
+    position: relative;
+    left: 31%;
+    margin-top: 24px;
+    list-style: none;
+}
+
+.marked{
+    color: darkgray;
+}
+
+body {
+    position: relative;
+    margin-top: 13%;
+}
