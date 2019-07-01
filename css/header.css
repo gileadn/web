@@ -103,3 +103,13 @@ div.stick_head {
 li.search_icon a:hover .search{
     display: block;
 }
+
+.x {
+    position: absolute;
+    left: 95%;
+    bottom: 75%;
+}
+
+.x:hover {
+    color: orange;
+}

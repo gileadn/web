@@ -22,9 +22,9 @@
         <ul>
             <li><a href="../homePage/homePage.html"><i class="fa fa-home">Home Page</i></a></li>
             <li><a href=""><i class="glyphicon glyphicon-menu-hamburger">Menu</i></a></li>
-            <li><a class="active" href="../catalog/catalog.html"><i class="fas fa-newspaper">Catalog</i></a></li>
+            <li><a href="../catalog/catalog.html"><i class="fas fa-newspaper">Catalog</i></a></li>
             <li class="search_icon" ><a href=""><i class="fas fa-search-dollar">Search</i></a></li>
-            <li class="login_icon" onmouseover="login()"><a href=""><i class="glyphicon glyphicon-log-in"> Log-in</i></a></li>
+            <li class="login_icon"><a><i class="glyphicon glyphicon-log-in"> Log-in</i></a></li>
         </ul>
         </span>
         <form method="post"  action="" enctype="text/plain">
@@ -34,6 +34,7 @@
                 <label for="password-id">password</label>
                 <input id="password-id" type="password" placeholder="Enter Password" required>
                 <input class="login_input" type="submit" value="login" />
+                <span class="x" onclick="loginc()">X</span>
             </fieldset>
         </form>
     </div>
