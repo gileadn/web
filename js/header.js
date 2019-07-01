@@ -1,8 +1,7 @@
 let dis = 0;
-document.querySelector(".login_icon").addEventListener("click",login);
 
 function login() {
-  let x = document.querySelector("fieldset.login");
+  let x = document.querySelector("form.login");
   if (dis === 0) {
   x.style.display = "inline-block";
   dis = 1;
@@ -15,7 +14,7 @@ function login() {
 }
 
 function loginc() {
-  let x = document.querySelector("fieldset.login");
+  let x = document.querySelector("form.login");
   x.style.display= "none";
   dis = 0;
 }

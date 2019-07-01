@@ -6,3 +6,13 @@ a{
     color: black;
     text-decoration: none;
 }
+
+main{
+    position: relative;
+    left: 5%;
+}
+
+nav{
+    position: relative;
+    right: 5%;
+}

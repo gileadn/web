@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/general.css">
     <link rel="stylesheet" href="../../css/root.css">
+    <script src="../../js/header.js"></script>
+    <script src="../../js/login.js"></script>
 </head>
 <body>
     <header>
@@ -22,17 +24,16 @@
                 <li><a href=""><i class="glyphicon glyphicon-menu-hamburger">Menu</i></a></li>
                 <li><a class="active" href="../catalog/catalog.html"><i class="fas fa-newspaper">Catalog</i></a></li>
                 <li class="search_icon" ><a href=""><i class="fas fa-search-dollar">Search</i></a></li>
-                <li class="login_icon"><a href=""><i class="glyphicon glyphicon-log-in"> Log-in</i></a></li>
+                <li class="login_icon" onclick="login()"><a><i class="glyphicon glyphicon-log-in"> Log-in</i></a></li>
             </ul>
             </span>
-            <form method="post"  action="" enctype="text/plain">
-                <fieldset class = "login" id="login_none">
-                    <label for="username-id">username</label>
-                    <input id="username-id" placeholder="Enter Username" required><br/>
-                    <label for="password-id">password</label>
-                    <input id="password-id" type="password" placeholder="Enter Password" required>
-                    <input class="login_input" type="submit" value="login" />
-                </fieldset>
+            <form class = "login" method="post"  action="" enctype="text/plain" name="log_form" onsubmit="return check()">
+                <label for="username-id">username</label>
+                <input id="username-id" placeholder="Enter Username" name="username"><br/>
+                <label for="password-id">password</label>
+                <input id="password-id" type="password" placeholder="Enter Password" name="password">
+                <input class="login_input" type="submit" value="login" />
+                <span class="x" onclick="loginc()">X</span>
             </form>
         </div>
         <div class= "search">
@@ -54,7 +55,7 @@
             </div>
             <h3 class ="value">1,081.04 USD</h3>
             <div class = "diagram" >
-                <iframe scrolling="no"  style ="width: 400px; height: 300px" src="https://www.investing.com/equities/google-inc"></iframe>
+                <img class = "comp_logo" src="../../image/google 1 year.jpg" height="30" width="30"/>
                 <span>
                     <ul class="li_diag">
                         <li><a href="">1 year</a></li>
@@ -150,7 +151,7 @@
         <hr>
         <div >
             <span>
-                <a class="FooterLinks" href="about.html">About</a>
+                <a class="FooterLinks" href="../about/about.html">About</a>
             </span>
             <span>
                 <a class="FooterLinks" href="#">Contact us</a>
