@@ -15,7 +15,7 @@ h1.comp_name {
     left: 500px;
 }
 
-fieldset.login {
+form.login {
     display: none;
     background-color: #f5f5f5;
     position: absolute;
